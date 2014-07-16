@@ -53,8 +53,8 @@
             <p><em>"Let's make this the best kick-start to any CodeIgniter project."</em> ~ The CI-Bonfire Team</p>
         </div>
         <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="public/assets/js/jquery-1.7.2.min.js"><\/script>');
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="public/assets/js/jquery-1.8.2.js"><\/script>');
         </script>
         <!-- This would be a good place to use a CDN version of jQueryUI if needed -->
         <script type="text/javascript" src="public/assets/js/bootstrap.min.js" ></script>

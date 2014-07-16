@@ -38,10 +38,10 @@ class connector extends Admin_Controller {
     */
     public function index() {
 
-	\$user_dir = \$_SERVER['DOCUMENT_ROOT'] . \$this->module_config['uploaded_dir_path'] . "/" . \$this->current_user->id . '/';
+	\$user_dir = \$_SERVER['DOCUMENT_ROOT'] . INDEX_PATH . \$this->module_config['uploaded_dir_path'] . "/" . \$this->current_user->id . '/';
 
 	if (!is_dir(\$user_dir)) {
-	    @mkdir(\$user_dir, 0777);
+	    @mkdir(\$user_dir, 0777, TRUE);
 	    //file_put_contents(\$user_dir . "/index.html", "Access denied!"); //index file to avoid directory listing (OPTIONAL)
 	}
 
